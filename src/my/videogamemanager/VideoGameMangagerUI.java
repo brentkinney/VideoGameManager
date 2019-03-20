@@ -263,7 +263,7 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
                 return;
        }
        
-       
+      
        
        //now that the video game object is validated, add it to the vector
        gameLibrary.add(tempGame);
