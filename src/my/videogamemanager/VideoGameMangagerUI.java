@@ -31,120 +31,120 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jTextField2 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        inputPanel = new javax.swing.JPanel();
+        titleLabel = new javax.swing.JLabel();
+        ratingLabel = new javax.swing.JLabel();
+        releaseYearLabel = new javax.swing.JLabel();
+        titleTextField = new javax.swing.JTextField();
+        eRadioButton = new javax.swing.JRadioButton();
+        tRadioButton = new javax.swing.JRadioButton();
+        mRadioButton = new javax.swing.JRadioButton();
+        releaseYearTextField = new javax.swing.JTextField();
+        submitButton = new javax.swing.JButton();
+        clearButton = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
+        outputTextPane = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Input"));
+        inputPanel.setBorder(javax.swing.BorderFactory.createTitledBorder("Input"));
 
-        jLabel1.setText("Title:");
+        titleLabel.setText("Title:");
 
-        jLabel2.setText("Rating:");
+        ratingLabel.setText("Rating:");
 
-        jLabel3.setText("Release Year:");
+        releaseYearLabel.setText("Release Year:");
 
-        jRadioButton1.setText("E");
-        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        eRadioButton.setText("E");
+        eRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton1ActionPerformed(evt);
+                eRadioButtonActionPerformed(evt);
             }
         });
 
-        jRadioButton2.setText("T");
-        jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
+        tRadioButton.setText("T");
+        tRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton2ActionPerformed(evt);
+                tRadioButtonActionPerformed(evt);
             }
         });
 
-        jRadioButton3.setText("M");
-        jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
+        mRadioButton.setText("M");
+        mRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton3ActionPerformed(evt);
+                mRadioButtonActionPerformed(evt);
             }
         });
 
-        jButton1.setText("Submit");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        submitButton.setText("Submit");
+        submitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                submitButtonActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Clear");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        clearButton.setText("Clear");
+        clearButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                clearButtonActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout inputPanelLayout = new javax.swing.GroupLayout(inputPanel);
+        inputPanel.setLayout(inputPanelLayout);
+        inputPanelLayout.setHorizontalGroup(
+            inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(inputPanelLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel2)
+                .addGroup(inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(inputPanelLayout.createSequentialGroup()
+                        .addComponent(ratingLabel)
                         .addGap(18, 18, 18)
-                        .addComponent(jRadioButton1)
+                        .addComponent(eRadioButton)
                         .addGap(18, 18, 18)
-                        .addComponent(jRadioButton2)
+                        .addComponent(tRadioButton)
                         .addGap(18, 18, 18)
-                        .addComponent(jRadioButton3))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel1)
+                        .addComponent(mRadioButton))
+                    .addGroup(inputPanelLayout.createSequentialGroup()
+                        .addComponent(titleLabel)
                         .addGap(18, 18, 18)
-                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jLabel3)
+                        .addComponent(titleTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(inputPanelLayout.createSequentialGroup()
+                        .addComponent(releaseYearLabel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(releaseYearTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(67, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, inputPanelLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton2)
+                .addComponent(clearButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1))
+                .addComponent(submitButton))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        inputPanelLayout.setVerticalGroup(
+            inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(inputPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(titleLabel)
+                    .addComponent(titleTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton3))
+                .addGroup(inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ratingLabel)
+                    .addComponent(eRadioButton)
+                    .addComponent(tRadioButton)
+                    .addComponent(mRadioButton))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(releaseYearLabel)
+                    .addComponent(releaseYearTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)))
+                .addGroup(inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(submitButton)
+                    .addComponent(clearButton)))
         );
 
-        jTextPane1.setEditable(false);
-        jScrollPane1.setViewportView(jTextPane1);
+        outputTextPane.setEditable(false);
+        jScrollPane1.setViewportView(outputTextPane);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -153,7 +153,7 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(inputPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(204, Short.MAX_VALUE))
         );
@@ -161,7 +161,7 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(inputPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(42, 42, 42)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(50, Short.MAX_VALUE))
@@ -175,27 +175,27 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
     radio buttons to 'unselected'
     @param evt is the action event of clicking the clear button
     */
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-    jTextField1.setText("");
-    jTextField2.setText("");
-    jRadioButton1.setSelected(false);
-    jRadioButton2.setSelected(false);
-    jRadioButton3.setSelected(false);
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void clearButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonActionPerformed
+    titleTextField.setText("");
+    releaseYearTextField.setText("");
+    eRadioButton.setSelected(false);
+    tRadioButton.setSelected(false);
+    mRadioButton.setSelected(false);
+    }//GEN-LAST:event_clearButtonActionPerformed
 
     /*
     Method that acts on a press of the 'submit' button and adds a new 
     video game record to the library after all validations are completed
     @param evt is the action event of clicking the submit button
     */
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonActionPerformed
        // creat a new video game object
        VideoGame tempGame = new VideoGame();
        
        //create a boolean variable to determine if the value returned by the 
        //setTitle() method is valid and if it's not, display an error messeage
        //and stop further processing of the function.
-       boolean validTitle = tempGame.setTitle(jTextField1.getText());
+       boolean validTitle = tempGame.setTitle(titleTextField.getText());
        if (!validTitle)
        {
            JOptionPane.showMessageDialog(null, "You must enter a Title");
@@ -204,15 +204,15 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
        
        //check which radio button is selected and if none, display error message
        //and stop further processing of the function
-       if (jRadioButton1.isSelected())
+       if (eRadioButton.isSelected())
        {
            tempGame.setRating("E");
        }
-       else if (jRadioButton2.isSelected())
+       else if (tRadioButton.isSelected())
        {
            tempGame.setRating("T");
        }
-       else if (jRadioButton3.isSelected())
+       else if (mRadioButton.isSelected())
        {
           tempGame.setRating("M");
        }
@@ -223,7 +223,7 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
        }
        
        //create a new string consisting of the text in release year field
-       String field2String = jTextField2.getText();
+       String field2String = releaseYearTextField.getText();
        
        //check if there are values in the field and if there are, etner into the
        //parse attempt
@@ -269,61 +269,61 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
        gameLibrary.add(tempGame);
        
        //create a new string with the current text in the library panel
-       String currentOutput = jTextPane1.getText();
+       String currentOutput = outputTextPane.getText();
        
        //check if the library panel is null or empty and if so, set the text
        //to the toString for the newly created game
        if (currentOutput == null || "".equals(currentOutput))
        {
-          jTextPane1.setText(tempGame.toString()); 
+          outputTextPane.setText(tempGame.toString()); 
        }
        //if their is previous text in the library pane, add a toString for the
        //new game object on a new line
        else
        {
           String newOutput = currentOutput + "\n" + tempGame.toString();
-          jTextPane1.setText(newOutput);
+          outputTextPane.setText(newOutput);
        }
          
        
       // clear out all fields after game object is created
-       jTextField1.setText("");
-       jTextField2.setText("");
-       jRadioButton1.setSelected(false);
-       jRadioButton2.setSelected(false);
-       jRadioButton3.setSelected(false);
+       titleTextField.setText("");
+       releaseYearTextField.setText("");
+       eRadioButton.setSelected(false);
+       tRadioButton.setSelected(false);
+       mRadioButton.setSelected(false);
        
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_submitButtonActionPerformed
 
     /*
     method that selects the E radio button option and de-selects all other radio
     buttons as only one can be chosen
     @param evt is the action event of clicking the radio button
     */
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-        jRadioButton2.setSelected(false);
-        jRadioButton3.setSelected(false);
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+    private void eRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eRadioButtonActionPerformed
+        tRadioButton.setSelected(false);
+        mRadioButton.setSelected(false);
+    }//GEN-LAST:event_eRadioButtonActionPerformed
 
      /*
     method that selects the T radio button option and de-selects all other radio
     buttons as only one can be chosen
     @param evt is the action event of clicking the radio button
     */
-    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
-        jRadioButton1.setSelected(false);
-        jRadioButton3.setSelected(false);
-    }//GEN-LAST:event_jRadioButton2ActionPerformed
+    private void tRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tRadioButtonActionPerformed
+        eRadioButton.setSelected(false);
+        mRadioButton.setSelected(false);
+    }//GEN-LAST:event_tRadioButtonActionPerformed
 
      /*
     method that selects the M radio button option and de-selects all other radio
     buttons as only one can be chosen
     @param evt is the action event of clicking the radio button
     */
-    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
-        jRadioButton1.setSelected(false);
-        jRadioButton2.setSelected(false);
-    }//GEN-LAST:event_jRadioButton3ActionPerformed
+    private void mRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mRadioButtonActionPerformed
+        eRadioButton.setSelected(false);
+        tRadioButton.setSelected(false);
+    }//GEN-LAST:event_mRadioButtonActionPerformed
 
     
     /**
@@ -365,18 +365,18 @@ public class VideoGameMangagerUI extends javax.swing.JFrame {
     private Vector gameLibrary = new Vector();
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
+    private javax.swing.JButton clearButton;
+    private javax.swing.JRadioButton eRadioButton;
+    private javax.swing.JPanel inputPanel;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JRadioButton mRadioButton;
+    private javax.swing.JTextPane outputTextPane;
+    private javax.swing.JLabel ratingLabel;
+    private javax.swing.JLabel releaseYearLabel;
+    private javax.swing.JTextField releaseYearTextField;
+    private javax.swing.JButton submitButton;
+    private javax.swing.JRadioButton tRadioButton;
+    private javax.swing.JLabel titleLabel;
+    private javax.swing.JTextField titleTextField;
     // End of variables declaration//GEN-END:variables
 }
